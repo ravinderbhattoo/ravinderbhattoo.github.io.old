@@ -11,7 +11,7 @@ title                    : "Ravinder Bhattoo"
 title_separator          : "-"
 name                     : &name "Ravinder Bhattoo"
 description              : &description "personal description"
-url                      : https://ravinderbhattoo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : http://127.0.0.1:4000/ #https://ravinderbhattoo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ravinderbhattoo/ravinderbhattoo.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/ravinderbhattoo"
+  github           : "ravinderbhattoo"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0003-0323-9108l"
+  orcid            : "https://orcid.org/0000-0003-0323-9108"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/RavinderBhattoo"
+  twitter          : "RavinderBhattoo"
   vine             :
   weibo            :
   xing             :

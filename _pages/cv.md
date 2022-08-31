@@ -9,51 +9,59 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV]({{site.author.baseurl}}/files/ravinder_cv.pdf) in pdf form.
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+- <p>PhD, Civil Engineering <p>2017-Present <br> Indian Institute of Technology Delhi, Delhi</p></p>
+- <p>B. Tech., Civil Engineering <p>2011-2015 <br> Indian Institute of Technology Roorkee, Roorkee</p></p>
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+<br>
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+
+Research Achievements and Awards
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
+PyGGi (Python for Glass Genomics)
+It is an indigenous industry relevant software package that uses trained Machine Learning
+algorithms to predict/optimise composition-property relationships in inorganic glasses. It will
+make the tedious process of designing tailored glasses economical in terms of time, effort and
+money.
+The software package is launched through FITT IITD and is available at www.pyggi.iitd.ac.in
+
+- ICG-GOMD 2019 registration grant (2019)
+- Prime Ministers Research Fellowship (PMRF)
+- SITARE/SRISTI Gandhian Young Technological Innovation (GYTI) Awards/Appreciations (2020) for PyGGi
+- SERB International Travel Support (2022)
+
+
+Software and Programing Languages
+======
+
+- Packages Developed:
+  - Peridynamics: PeriDyn.jl, PDMesh.jl and PDBenchmark.jl
+  - Molecular Dynamics: MDSimulator.jl and MDBase.jl
+  - Others: GlassConversionPy
+
+  All packages can be accessed at the [github repository](https://github.com/{{site.author.github}}).
+- Operating Systems: Linux, MacOS and Windows
+- Softwares: LAMMPS, NAMD, Peridigm, R.I.N.G.S, Ovito, VMD, Abaqus and STAADPRO
+- Languages: Julia, Python, C++ and Matlab
+
+
+<br>
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ol>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+  {% endfor %}</ol>
+
+<br>
+
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ol>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ol>
+
