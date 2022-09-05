@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-Research Interest
-
-Machine learning aided material design, physics-informed machine learning, graph neural networks, material modeling, dynamic fracture and crack propagation on ballistic impact, molecular dynamics, and peridynamics.
+[here]({{site.author.baseurl}}/cv/)
