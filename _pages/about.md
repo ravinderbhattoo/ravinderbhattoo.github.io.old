@@ -8,5 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Please go to [webpage](https://web.iitd.ac.in/~cez177518)
+Research Interest
 
+Machine learning aided material design, physics-informed machine learning, graph neural networks, material modeling, dynamic fracture and crack propagation on ballistic impact, molecular dynamics, and peridynamics.
