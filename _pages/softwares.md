@@ -12,20 +12,26 @@ redirect_from:
 Peridynamics
 ======
 
-- [PeriDyn.jl](https://github.com/ravinderbhattoo/PeriDyn)
-- [PDMesh.jl](https://github.com/ravinderbhattoo/PDMesh)
-- [PDBenchmark.jl](https://github.com/ravinderbhattoo/PDBenchmark)
+- __PeriDyn.jl__ [[github]](https://github.com/ravinderbhattoo/PeriDyn) [[Docs]](https://ravinderbhattoo.github.io/PeriDyn/toc.html)
+
+- __PDMesh.jl__ [[github]](https://github.com/ravinderbhattoo/PDMesh)
+
+- __PDBenchmark.jl__ [[github]](https://github.com/ravinderbhattoo/PDBenchmark)
 
 Molecular Dynamics
 ======
 
-- [MDSimulator.jl](https://github.com/ravinderbhattoo/MDSimulator)
-- [MDBase.jl](https://github.com/ravinderbhattoo/MDBase)
+- __MDSimulator.jl__ [[github]](https://github.com/ravinderbhattoo/MDSimulator)
+
+- __MDBase.jl__ [[github]](https://github.com/ravinderbhattoo/MDBase)
 
 Miscellaneous
 ======
 
-- [GlassConversionPy](https://github.com/ravinderbhattoo/GlassConversionPy)
-- [MLPipeline](https://github.com/ravinderbhattoo/MLPipeline)
-- [MixModelsPytorch](https://github.com/ravinderbhattoo/MixModelsPytorch)
-- [kurma](https://github.com/ravinderbhattoo/kurma)
+- __GlassConversionPy__ [[github]](https://github.com/ravinderbhattoo/GlassConversionPy)
+
+- __MLPipeline__ [[github]](https://github.com/ravinderbhattoo/MLPipeline)
+
+- __MixModelsPytorch__ [[github]](https://github.com/ravinderbhattoo/MixModelsPytorch)
+
+- __kurma__ [[github]](https://github.com/ravinderbhattoo/kurma)
