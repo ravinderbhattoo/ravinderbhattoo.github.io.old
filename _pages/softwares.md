@@ -12,7 +12,7 @@ redirect_from:
 Peridynamics
 ======
 
-- __PeriDyn.jl__ [[github]](https://github.com/ravinderbhattoo/PeriDyn) [[Docs]](https://ravinderbhattoo.github.io/PeriDyn/toc.html)
+- __PeriDyn.jl__ [[github]](https://github.com/ravinderbhattoo/PeriDyn) [[Docs]](https://ravinderbhattoo.github.io/PeriDyn/toc.html) [[PDF]]({{site.author.baseurl}}/files/PeriDyn.pdf)
 
 - __PDMesh.jl__ [[github]](https://github.com/ravinderbhattoo/PDMesh)
 
