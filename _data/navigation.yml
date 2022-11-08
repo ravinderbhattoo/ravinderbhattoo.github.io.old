@@ -6,21 +6,20 @@ main:
   - title: "Conferences and Talks"
     url: /talks/
 
+  - title: "Blog Posts"
+    url: /blogposts/
+
+  - title: "Softwares/Programming"
+    url: /softwares/
+
+  - title: "CV"
+    url: /cv/
+
   # - title: "Teaching"
   #   url: /teaching/
 
   # - title: "Portfolio"
   #   url: /portfolio/
 
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-
-  - title: "Softwares/Programming"
-    url: /softwares/
-
   # - title: "Guide"
   #   url: /markdown/
-
-  - title: "CV"
-    url: /cv/
-

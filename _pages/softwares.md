@@ -12,11 +12,11 @@ redirect_from:
 Peridynamics
 ======
 
-- __PeriDyn.jl__ [[github]](https://github.com/ravinderbhattoo/PeriDyn) [[Docs]](https://ravinderbhattoo.github.io/PeriDyn/toc.html) [[PDF]]({{site.author.baseurl}}/files/PeriDyn.pdf)
+- __PeriDyn.jl__ [[github]](https://github.com/ravinderbhattoo/PeriDyn) [[Docs]](https://ravinderbhattoo.github.io/PeriDyn) [[PDF]]({{site.author.baseurl}}/files/PeriDyn.pdf) [[Posts]](/blogposts/cat_peridyn)
 
-- __PDMesh.jl__ [[github]](https://github.com/ravinderbhattoo/PDMesh)
+- __PDMesh.jl__ [[github]](https://github.com/ravinderbhattoo/PDMesh) [[Docs]](https://ravinderbhattoo.github.io/PDMesh) [[Posts]](/blogposts/cat_pdmesh)
 
-- __PDBenchmark.jl__ [[github]](https://github.com/ravinderbhattoo/PDBenchmark)
+- __PDBenchmark.jl__ [[github]](https://github.com/ravinderbhattoo/PDBenchmark) [[Docs]](https://ravinderbhattoo.github.io/PDBenchmark)
 
 Molecular Dynamics
 ======
