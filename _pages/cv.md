@@ -17,7 +17,7 @@ Machine learning aided material design, physics-informed machine learning, graph
 
 Education
 ======
-- PhD, Civil Engineering <br> _2017--Present <br> Indian Institute of Technology Delhi, Delhi_
+- PhD, Civil Engineering <br> _2017--2023 <br> Indian Institute of Technology Delhi, Delhi_
 - B. Tech., Civil Engineering <br>_2011--2015 <br> Indian Institute of Technology Roorkee, Roorkee_
 
 Ph.D. Thesis
