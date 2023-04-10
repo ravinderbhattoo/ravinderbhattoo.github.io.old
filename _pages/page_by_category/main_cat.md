@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /blogposts/blog_collection/
+permalink: /blogs/blog_collection/
 title: "Blog-posts by Collection"
 author_profile: true
 ---
@@ -8,6 +8,6 @@ author_profile: true
 {% include base_path %}
 
 - Peridynamics
-    - [PeriDyn](/blogposts/cat_peridyn)
-    - [PDMesh](/blogposts/cat_pdmesh)
+    - [PeriDyn](/blogs/cat_peridyn)
+    - [PDMesh](/blogs/cat_pdmesh)
 
