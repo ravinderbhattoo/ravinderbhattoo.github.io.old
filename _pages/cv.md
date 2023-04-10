@@ -15,10 +15,14 @@ Research Interest
 ======
 Machine learning aided material design, physics-informed machine learning, graph neural networks, material modeling, dynamic fracture and crack propagation on ballistic impact, molecular dynamics, and peridynamics
 
+Research Experience
+======
+- Postdoctoral Scholar, Civil and Environmental Engineering <br> _January 2023 -- Present <br> University of Wisconsin, Madison_
+
 Education
 ======
-- PhD, Civil Engineering <br> _2017--2023 <br> Indian Institute of Technology Delhi, Delhi_
-- B. Tech., Civil Engineering <br>_2011--2015 <br> Indian Institute of Technology Roorkee, Roorkee_
+- PhD, Civil Engineering <br> _July 2017 -- January 2023 <br> Indian Institute of Technology Delhi, Delhi_
+- B. Tech., Civil Engineering <br>_July 2011 -- June 2015 <br> Indian Institute of Technology Roorkee, Roorkee_
 
 Ph.D. Thesis
 ======
