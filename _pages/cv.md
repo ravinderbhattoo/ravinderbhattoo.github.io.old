@@ -17,12 +17,13 @@ Machine learning aided material design, physics-informed machine learning, graph
 
 Research Experience
 ======
-- Postdoctoral Scholar, Civil and Environmental Engineering <br> _January 2023 -- Present <br> University of Wisconsin, Madison_
+- **Research Associate**, Civil and Environmental Engineering <br> _April 2023 -- Present <br> University of Wisconsin, Madison_
+- **Postdoctoral Scholar**, Civil Engineering <br> _January 2023 -- March 2023 <br> Indian Institute of Technology Delhi, Delhi_
 
 Education
 ======
-- PhD, Civil Engineering <br> _July 2017 -- January 2023 <br> Indian Institute of Technology Delhi, Delhi_
-- B. Tech., Civil Engineering <br>_July 2011 -- June 2015 <br> Indian Institute of Technology Roorkee, Roorkee_
+- **Ph.D.**, Civil Engineering <br> _July 2017 -- January 2023 <br> Indian Institute of Technology Delhi, Delhi_
+- **B.Tech.**, Civil Engineering <br>_July 2011 -- June 2015 <br> Indian Institute of Technology Roorkee, Roorkee_
 
 Ph.D. Thesis
 ======
