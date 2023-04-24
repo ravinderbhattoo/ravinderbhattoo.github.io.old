@@ -47,6 +47,11 @@ The software package is launched through FITT IITD and is available at www.pyggi
 - SITARE/SRISTI Gandhian Young Technological Innovation (GYTI) Awards/Appreciations (2020) for PyGGi
 - SERB International Travel Support (2022)
 
+Book(s) and Contributed Chapters
+======
+- Machine Learning for Materials Discovery: Numerical Recipes and Practical Applications (__Draft__)
+
+  *N. M. Anoop Krishnan, Hariprasad Kodamana and Ravinder Bhattoo*
 
 Software and Programming Languages
 ======
