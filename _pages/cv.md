@@ -13,7 +13,7 @@ redirect_from:
 
 Research Interest
 ======
-Machine learning aided material design, physics-informed machine learning, graph neural networks, material modeling, dynamic fracture and crack propagation on ballistic impact, molecular dynamics, and peridynamics
+Machine learning aided structural design, material modeling, physics-informed machine learning, graph neural networks, dynamic fracture and crack propagation on ballistic impact, molecular dynamics, and peridynamics
 
 Research Experience
 ======
@@ -29,7 +29,7 @@ Ph.D. Thesis
 ======
 __Title: Data-driven Modeling and Physics-informed Machine Learning for Glass Discovery__
 
-The research work explores the use of machine learning methods in modeling inorganic glass properties, revealing composition--property relationships through explainable ML, understanding mechanisms at atomic scale and up-scaling of material properties using MD and DFT simulation trajectory. The research work uses the graph neural network based interatomic potential for reproducing features at atomic scale for complex systems and use ML material models (peridynamics nonlocal operators) for reproducing material behavior at meso-scale with MD and DFT simulation trajectories.
+The research work explores the use of machine learning methods in modeling inorganic glass properties, revealing composition--property relationships through explainable ML, understanding mechanisms at atomic scale and up-scaling of material properties using MD and DFT simulation trajectory. The research work uses the graph neural network based interatomic potential for reproducing features at atomic scale for complex systems and use ML material models (peridynamics nonlocal operators) for reproducing material behavior at meso-scale with MD and DFT simulation trajectories
 
 
 Research Achievements and Awards
@@ -61,7 +61,6 @@ Software and Programming Languages
 - Operating Systems: Linux, MacOS, and Windows
 - Softwares: LAMMPS, NAMD, Peridigm, R.I.N.G.S, Ovito, VMD, Abaqus and STAADPRO
 - Languages: Julia, Python, C++, and Matlab
-
 
 <br>
 

@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ravinder Bhattoo"
   avatar           : "ravinder.jpeg"
-  bio              : "Research Associate at University of Wisconsin-Madison"
+  bio              : "Research Associate<div style='font-size:12px'><br>Civil & Environmental Engineering<br>University of Wisconsin-Madison</div>"
   location         : "Madison, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "ravinder-bhattoo-b6129367"
+  linkedin         : "ravinderbhattoo"
   orcid            : "https://orcid.org/0000-0003-0323-9108"
   pinterest        :
   soundcloud       :

@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Peridynamics
-======
+## Peridynamics
 
 - __PeriDyn.jl__ [[github]](https://github.com/ravinderbhattoo/PeriDyn) [[Docs]](https://ravinderbhattoo.github.io/PeriDyn) [[PDF]]({{site.author.baseurl}}/files/PeriDyn.pdf) [[Posts]](/blogs/cat_peridyn)
 
@@ -18,15 +17,13 @@ Peridynamics
 
 - __PDBenchmark.jl__ [[github]](https://github.com/ravinderbhattoo/PDBenchmark) [[Docs]](https://ravinderbhattoo.github.io/PDBenchmark)
 
-Molecular Dynamics
-======
+## Molecular Dynamics
 
 - __MDSimulator.jl__ [[github]](https://github.com/ravinderbhattoo/MDSimulator)
 
 - __MDBase.jl__ [[github]](https://github.com/ravinderbhattoo/MDBase)
 
-Miscellaneous
-======
+## Miscellaneous
 
 - __GlassConversionPy__ [[github]](https://github.com/ravinderbhattoo/GlassConversionPy)
 
