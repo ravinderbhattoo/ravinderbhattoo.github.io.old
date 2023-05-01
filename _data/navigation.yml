@@ -3,14 +3,20 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Conferences and Talks"
+  - title: "Conferences & Talks"
     url: /talks/
+
+  - title: "Research"
+    url: /research/
 
   - title: "Blogs"
     url: /blogs/
 
-  - title: "Softwares/Programming"
+  - title: "Softwares"
     url: /softwares/
+
+  # - title: "Resources"
+  #   url: /resources/
 
   - title: "CV"
     url: /cv/

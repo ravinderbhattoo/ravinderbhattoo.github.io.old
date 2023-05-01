@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: ""
+title: "Home"
+hidetitle: true
 excerpt: "About me"
 author_profile: true
 redirect_from:

@@ -51,3 +51,14 @@
     font-weight: 700;
   }
 }
+
+.masthead__menu-item_active {
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
+
+  &--lg {
+    padding-right: 2em;
+    font-weight: 700;
+  }
+}
