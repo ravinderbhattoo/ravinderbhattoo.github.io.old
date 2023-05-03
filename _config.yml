@@ -157,7 +157,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "<!-- more -->"
+excerpt_separator: "<!--  -->"
 incremental: false
 
 
@@ -181,8 +181,8 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: false
+  research:
+    output: true
     permalink: /:collection/:path/
   talks:
     output: true
@@ -227,10 +227,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true

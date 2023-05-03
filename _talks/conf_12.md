@@ -6,8 +6,9 @@ location: "Galway, Ireland"
 title: "Talk: PeriDyn: A Peridynamics Package Written in Julia Programming Language"
 abstract: "talk_esmc_2022_peridyn.pdf"
 files: "nan"
+collection: talks
 ---
 
 <!--  -->
 
-[Download abstract]({{site.author.baseurl}}/files/talk_esmc_2022_peridyn.pdf)
+[Download abstract]({{site.author.baseurl}}/files/talks/talk_esmc_2022_peridyn.pdf)

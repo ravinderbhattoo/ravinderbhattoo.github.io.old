@@ -6,6 +6,7 @@ location: "British Columbia, Canada (Virtual)"
 title: "Talk: Decoding the Genome of Inorganic Glasses using Interpretable Machine Learning"
 abstract: ""
 files: "nan"
+collection: talks
 ---
 
 <!--  -->

@@ -6,6 +6,7 @@ location: "New Delhi, India"
 title: "Workshop: Molecular dynamics workshop 2"
 abstract: ""
 files: "nan"
+collection: talks
 ---
 
 <!--  -->

@@ -4,8 +4,9 @@ date: "May 2022"
 venue: "Hyatt Regency Baltimore"
 location: "Baltimore, MD, United States"
 title: "Talk: Learning interaction laws in atomistic system using Lagrangian Graph Neural Networks"
-abstract: "talk_gomd_2022_laws.md"
+abstract: "talk_gomd_2022_laws.txt"
 files: "nan"
+collection: talks
 ---
 
 <!--  -->

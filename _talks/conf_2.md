@@ -6,6 +6,7 @@ location: "New Delhi, India"
 title: "Poster: Two-dimensional glass transition in graphene: Insights from molecular simulations"
 abstract: ""
 files: "nan"
+collection: talks
 ---
 
 <!--  -->

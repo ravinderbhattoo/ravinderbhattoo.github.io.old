@@ -6,6 +6,7 @@ location: "New Delhi, India"
 title: "Workshop: Introduction to Machine Learning"
 abstract: ""
 files: "nan"
+collection: talks
 ---
 
 <!--  -->

@@ -6,6 +6,7 @@ location: "Roorkee, India"
 title: "Poster: Role of topological defects on the rigidity of glassy graphene"
 abstract: ""
 files: "nan"
+collection: talks
 ---
 
 <!--  -->

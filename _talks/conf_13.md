@@ -6,8 +6,9 @@ location: "Mexico"
 title: "Talk: Understanding the Compositional Control on Electrical, Mechanical, Optical, And Physical Properties of Inorganic Glasses with Interpretable Machine Learning"
 abstract: "talk_imrc_2022_glass.pdf"
 files: "nan"
+collection: talks
 ---
 
 <!--  -->
 
-[Download abstract]({{site.author.baseurl}}/files/talk_imrc_2022_glass.pdf)
+[Download abstract]({{site.author.baseurl}}/files/talks/talk_imrc_2022_glass.pdf)

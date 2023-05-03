@@ -6,6 +6,7 @@ location: "Portland, USA"
 title: "Talk: Machine learning to predict the elastic properties of glasses"
 abstract: ""
 files: "nan"
+collection: talks
 ---
 
 <!--  -->

@@ -15,17 +15,5 @@ main:
   - title: "Softwares"
     url: /softwares/
 
-  # - title: "Resources"
-  #   url: /resources/
-
   - title: "CV"
     url: /cv/
-
-  # - title: "Teaching"
-  #   url: /teaching/
-
-  # - title: "Portfolio"
-  #   url: /portfolio/
-
-  # - title: "Guide"
-  #   url: /markdown/

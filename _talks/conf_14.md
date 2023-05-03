@@ -6,8 +6,9 @@ location: "Mexico"
 title: "Talk: Lagrangian and Hamiltonian Graph Neural Networks for Robust Molecular Simulations"
 abstract: "talk_imrc_2022_lgnn.pdf"
 files: "nan"
+collection: talks
 ---
 
 <!--  -->
 
-[Download abstract]({{site.author.baseurl}}/files/talk_imrc_2022_lgnn.pdf)
+[Download abstract]({{site.author.baseurl}}/files/talks/talk_imrc_2022_lgnn.pdf)

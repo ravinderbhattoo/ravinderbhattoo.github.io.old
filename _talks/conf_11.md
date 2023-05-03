@@ -4,8 +4,9 @@ date: "May 2022"
 venue: "Hyatt Regency Baltimore"
 location: "Baltimore, MD, United States"
 title: "Talk: Learning Quantum-accuracy Interatomic Potential for Silica Using Lagrangian Graph Neural Networks"
-abstract: "talk_gomd_2022_sio2.md"
+abstract: "talk_gomd_2022_sio2.txt"
 files: "nan"
+collection: talks
 ---
 
 <!--  -->

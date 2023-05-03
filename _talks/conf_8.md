@@ -6,6 +6,7 @@ location: "Massachusetts, USA (Virtual)"
 title: "Talk: Molecular Dynamics Simulation Using Graph Neural Networks"
 abstract: ""
 files: "nan"
+collection: talks
 ---
 
 <!--  -->

@@ -6,6 +6,7 @@ location: "New Delhi, India"
 title: "Poster: Designing Functional Glasses using Machine Learning"
 abstract: ""
 files: "nan"
+collection: talks
 ---
 
 <!--  -->
