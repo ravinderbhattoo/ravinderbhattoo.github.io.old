@@ -1,0 +1,5 @@
+{% assign featuredposts = site.posts | where:thistag,'true' %}
+{% for post in featuredposts limit:1 %}
+[go to post]({{ post.url }})
+{{ post.excerpt }}
+{% endfor %}

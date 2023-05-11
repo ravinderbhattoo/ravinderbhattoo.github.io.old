@@ -78,7 +78,7 @@ Publications
 
 <br>
 
-Talks
+Conferences Talks and Workshops
 ======
   <ol>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}

@@ -7,27 +7,35 @@ author_profile: true
 ---
 
 {% include base_path %}
+# Peridynamics
 
-## Peridynamics
 
-- __PeriDyn.jl__ [[github]](https://github.com/ravinderbhattoo/PeriDyn) [[Docs]](https://ravinderbhattoo.github.io/PeriDyn) [[PDF]]({{site.author.baseurl}}/files/PeriDyn.pdf) [[Posts]](/blogs/cat_peridyn)
+### 1. __PeriDyn.jl__ [[github]](https://github.com/ravinderbhattoo/PeriDyn) [[Docs]](https://ravinderbhattoo.github.io/PeriDyn) [[Posts]](/blogs/cat_peridyn) [[PDF]]({{site.author.baseurl}}/files/PeriDyn.pdf)
 
-- __PDMesh.jl__ [[github]](https://github.com/ravinderbhattoo/PDMesh) [[Docs]](https://ravinderbhattoo.github.io/PDMesh) [[Posts]](/blogs/cat_pdmesh)
+{% assign thistag = "mainperidyn" %}
+{% include excerpt_thistag.html %}
 
-- __PDBenchmark.jl__ [[github]](https://github.com/ravinderbhattoo/PDBenchmark) [[Docs]](https://ravinderbhattoo.github.io/PDBenchmark)
+### 2. __PDMesh.jl__ [[github]](https://github.com/ravinderbhattoo/PDMesh) [[Docs]](https://ravinderbhattoo.github.io/PDMesh) [[Posts]](/blogs/cat_pdmesh)
 
-## Molecular Dynamics
+{% assign thistag = "mainpdmesh" %}
+{% include excerpt_thistag.html %}
 
-- __MDSimulator.jl__ [[github]](https://github.com/ravinderbhattoo/MDSimulator)
+### 3. __PDBenchmark.jl__ [[github]](https://github.com/ravinderbhattoo/PDBenchmark) [[Docs]](https://ravinderbhattoo.github.io/PDBenchmark)
 
-- __MDBase.jl__ [[github]](https://github.com/ravinderbhattoo/MDBase)
+# Molecular Dynamics
 
-## Miscellaneous
+### 1. __MDSimulator.jl__ [[github]](https://github.com/ravinderbhattoo/MDSimulator)
 
-- __GlassConversionPy__ [[github]](https://github.com/ravinderbhattoo/GlassConversionPy)
+### 2. __MDBase.jl__ [[github]](https://github.com/ravinderbhattoo/MDBase)
 
-- __MLPipeline__ [[github]](https://github.com/ravinderbhattoo/MLPipeline)
+# Miscellaneous
 
-- __MixModelsPytorch__ [[github]](https://github.com/ravinderbhattoo/MixModelsPytorch)
+### 1. __GlassConversionPy__ [[github]](https://github.com/ravinderbhattoo/GlassConversionPy)
 
-- __kurma__ [[github]](https://github.com/ravinderbhattoo/kurma)
+### 2. __MLPipeline__ [[github]](https://github.com/ravinderbhattoo/MLPipeline)
+
+### 3. __MixModelsPytorch__ [[github]](https://github.com/ravinderbhattoo/MixModelsPytorch)
+
+### 4. __kurma__ [[github]](https://github.com/ravinderbhattoo/kurma)
+
+
