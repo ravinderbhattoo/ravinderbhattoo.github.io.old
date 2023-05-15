@@ -15,9 +15,9 @@ author_profile: true
 {% assign thistag = "mainperidyn" %}
 {% include excerpt_thistag.html %}
 
-### 2. __PDMesh.jl__ [[github]](https://github.com/ravinderbhattoo/PDMesh) [[Docs]](https://ravinderbhattoo.github.io/PDMesh) [[Posts]](/blogs/cat_pdmesh)
+### 2. __PDMaterialPoints.jl__ [[github]](https://github.com/ravinderbhattoo/PDMaterialPoints.jl) [[Docs]](https://ravinderbhattoo.github.io/PDMaterialPoints.jl) [[Posts]](/blogs/cat_pdmaterialpoints)
 
-{% assign thistag = "mainpdmesh" %}
+{% assign thistag = "mainpdmaterialpoints" %}
 {% include excerpt_thistag.html %}
 
 ### 3. __PDBenchmark.jl__ [[github]](https://github.com/ravinderbhattoo/PDBenchmark) [[Docs]](https://ravinderbhattoo.github.io/PDBenchmark)

@@ -1,21 +1,20 @@
 ---
 layout: archive
-permalink: /blogs/cat_pdmesh/
-title: "Pages by Category: PDMesh"
-mytag: PDMesh
+permalink: /research/cat_piml/
+title: "Physics Informed Machine Learning"
+mycat: PIML
 author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
+{% include group-by-array collection=site.research field="category" %}
 
 {% assign collection_tags = group_names | join: '~~~' | downcase | split: '~~~' %}
-{% assign dtag = page.mytag | downcase %}
+{% assign dtag = page.mycat | downcase %}
 
 {% for tag in collection_tags %}
   {% if tag == dtag %}
     {% assign posts = group_items[forloop.index0] %}
-    <h2 id="{{ tag | slugify }}" class="archive__subtitle">Posts with {{ page.mytag }}</h2>
     {% for post in posts %}
         {% include archive-single.html %}
     {% endfor %}

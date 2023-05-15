@@ -9,5 +9,5 @@ author_profile: true
 
 - Peridynamics
     - [PeriDyn](/blogs/cat_peridyn)
-    - [PDMesh](/blogs/cat_pdmesh)
+    - [PDMaterialPoints.jl](/blogs/cat_pdmaterialpoints)
 

@@ -58,7 +58,7 @@ Software and Programming Languages
 ======
 
 - Packages Developed:
-  - Peridynamics: __PeriDyn.jl, PDMesh.jl and PDBenchmark.jl__
+  - Peridynamics: __PeriDyn.jl, PDMaterialPoints.jl and PDBenchmark.jl__
   - Molecular Dynamics: __MDSimulator.jl and MDBase.jl__
   - Others: __GlassConversionPy, MLPipeline, MixModelsPytorch__
   - Contribution to other packages: __jax-md__

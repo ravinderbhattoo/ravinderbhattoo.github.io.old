@@ -1,19 +1,22 @@
 # main links links
 main:
+  - title: "Research"
+    url: /research/
+
   - title: "Publications"
     url: /publications/
 
   - title: "Conferences & Talks"
     url: /talks/
 
-  - title: "Research"
-    url: /research/
-
   - title: "Blogs"
     url: /blogs/
 
   - title: "Softwares"
     url: /softwares/
+
+  - title: "Resource"
+    url: /resource/
 
   - title: "CV"
     url: /cv/
