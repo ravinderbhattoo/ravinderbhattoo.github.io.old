@@ -2,7 +2,7 @@
 key: "SGCSG3DT"
 item_type: "journalArticle"
 publication_year: "2020"
-authors: "Ravinder, R.; Garg, Prateet; Krishnan, N. M. Anoop"
+authors: "<b><u><b><u>Ravinder</u></b>, R.</u></b>; Garg, Prateet; Krishnan, N. M. Anoop"
 title: "Glass Transition and Crystallization in Hexagonal Boron Nitride: Crucial Role of Orientational Order"
 venue: "Advanced Theory and Simulations"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://onlinelibrary.wiley.com/doi/abs/10.1002/adts.201900174)
 

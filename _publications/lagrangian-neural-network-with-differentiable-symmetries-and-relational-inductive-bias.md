@@ -2,7 +2,7 @@
 key: "7FNHHIXZ"
 item_type: "preprint"
 publication_year: "2021"
-authors: "Bhattoo, Ravinder; Ranu, Sayan; Krishnan, N. M. Anoop"
+authors: "<b><u>Bhattoo, <b><u>Ravinder</u></b></u></b>; Ranu, Sayan; Krishnan, N. M. Anoop"
 title: "Lagrangian Neural Network with Differentiable Symmetries and Relational Inductive Bias"
 publication_title: "nan"
 isbn: "nan"
@@ -96,7 +96,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](http://arxiv.org/abs/2110.03266)
 

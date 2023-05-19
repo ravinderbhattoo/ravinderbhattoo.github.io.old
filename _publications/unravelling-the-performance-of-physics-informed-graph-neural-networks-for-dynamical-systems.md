@@ -2,7 +2,7 @@
 key: "JLTWP6JQ"
 item_type: "conferencePaper"
 publication_year: "2022"
-authors: "Thangamuthu, Abishek; Kumar, Gunjan; Bishnoi, Suresh; Bhattoo, Ravinder; Krishnan, N. M. Anoop; Ranu, Sayan"
+authors: "Thangamuthu, Abishek; Kumar, Gunjan; Bishnoi, Suresh; <b><u>Bhattoo, <b><u>Ravinder</u></b></u></b>; Krishnan, N. M. Anoop; Ranu, Sayan"
 title: "Unravelling the Performance of Physics-informed Graph Neural Networks for Dynamical Systems"
 publication_title: "nan"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://openreview.net/forum?id=tXEe-Ew_ikh)
 

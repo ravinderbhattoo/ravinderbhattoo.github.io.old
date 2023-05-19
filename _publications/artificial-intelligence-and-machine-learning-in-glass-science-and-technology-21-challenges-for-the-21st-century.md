@@ -2,7 +2,7 @@
 key: "BAV5DAQB"
 item_type: "journalArticle"
 publication_year: "2021"
-authors: "Ravinder; Venugopal, Vineeth; Bishnoi, Suresh; Singh, Sourabh; Zaki, Mohd; Grover, Hargun Singh; Bauchy, Mathieu; Agarwal, Manish; Krishnan, N. M. Anoop"
+authors: "<b><u>Ravinder</u></b>; Venugopal, Vineeth; Bishnoi, Suresh; Singh, Sourabh; Zaki, Mohd; Grover, Hargun Singh; Bauchy, Mathieu; Agarwal, Manish; Krishnan, N. M. Anoop"
 title: "Artificial intelligence and machine learning in glass science and technology: 21 challenges for the 21st century"
 venue: "International Journal of Applied Glass Science"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://onlinelibrary.wiley.com/doi/abs/10.1111/ijag.15881)
 

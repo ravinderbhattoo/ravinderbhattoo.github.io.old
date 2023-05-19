@@ -2,7 +2,7 @@
 key: "QZHWE2N4"
 item_type: "journalArticle"
 publication_year: "2021"
-authors: "Bishnoi, Suresh; Ravinder, R.; Grover, Hargun Singh; Kodamana, Hariprasad; Krishnan, N. M. Anoop"
+authors: "Bishnoi, Suresh; <b><u><b><u>Ravinder</u></b>, R.</u></b>; Grover, Hargun Singh; Kodamana, Hariprasad; Krishnan, N. M. Anoop"
 title: "Scalable Gaussian processes for predicting the optical, physical, thermal, and mechanical properties of inorganic glasses with large datasets"
 venue: "Materials Advances"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://pubs.rsc.org/en/content/articlelanding/2021/ma/d0ma00764a)
 

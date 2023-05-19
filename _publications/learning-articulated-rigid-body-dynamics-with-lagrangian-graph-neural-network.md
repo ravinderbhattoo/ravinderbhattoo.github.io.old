@@ -2,7 +2,7 @@
 key: "6R8JULBD"
 item_type: "conferencePaper"
 publication_year: "2022"
-authors: "Bhattoo, Ravinder; Ranu, Sayan; Krishnan, N. M. Anoop"
+authors: "<b><u>Bhattoo, <b><u>Ravinder</u></b></u></b>; Ranu, Sayan; Krishnan, N. M. Anoop"
 title: "Learning Articulated Rigid Body Dynamics with Lagrangian Graph Neural Network"
 publication_title: "nan"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://openreview.net/forum?id=nOdfIbo3A-F)
 

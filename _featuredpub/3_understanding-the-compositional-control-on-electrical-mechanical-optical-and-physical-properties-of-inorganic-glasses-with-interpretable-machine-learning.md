@@ -9,7 +9,7 @@ isbn: "nan"
 issn: "1359-6454"
 doi: "10.1016/j.actamat.2022.118439"
 paperurl: "https://www.sciencedirect.com/science/article/pii/S1359645422008163"
-abstract_note: "Despite the use of inorganic glasses for more than 4500 years, the composition–property relationships in these materials remain poorly understood. Here, exploiting largescale experimental data and machine learning, we develop composition–property models for twenty five properties, which are interpreted using game-theoretic concepts. Specifically, we use a dataset consisting of ∼275,000 glass compositions comprising of 221 different components and 25 properties. This is by far the largest model developed in the literature. The analysis reveals that the glass components, such as network formers, modifiers, and intermediates, play distinct roles in governing the optical, physical, electrical, and mechanical properties of glasses. Interestingly, these components exhibit interdependence, the magnitude of which is different for different properties. While the physical origins of some of these interdependencies could be explained using known phenomena, the majority of the remaining ones remain to be explored. Thus, our work paves the way for decoding the “glass genome”, which can provide the recipe for discovering novel glasses while also shedding light on the fundamental factors governing the composition–structure–property relationships."
+excerpt: "Despite the use of inorganic glasses for more than 4500 years, the composition–property relationships in these materials remain poorly understood. Here, exploiting largescale experimental data and machine learning, we develop composition–property models for twenty five properties, which are interpreted using game-theoretic concepts. Specifically, we use a dataset consisting of ∼275,000 glass compositions comprising of 221 different components and 25 properties. This is by far the largest model developed in the literature. The analysis reveals that the glass components, such as network formers, modifiers, and intermediates, play distinct roles in governing the optical, physical, electrical, and mechanical properties of glasses. Interestingly, these components exhibit interdependence, the magnitude of which is different for different properties. While the physical origins of some of these interdependencies could be explained using known phenomena, the majority of the remaining ones remain to be explored. Thus, our work paves the way for decoding the “glass genome”, which can provide the recipe for discovering novel glasses while also shedding light on the fundamental factors governing the composition–structure–property relationships."
 date: "2023-01-01"
 date_added: "2023-05-19 17:58:53"
 date_modified: "2023-05-19 17:58:53"
@@ -86,14 +86,14 @@ session: "nan"
 committee: "nan"
 history: "nan"
 legislative_body: "nan"
-collection: publications
+type: "Publication"
 ---
 
 
 
 <!--  -->
 
-{{ page.abstract_note }}
+{{ page.excerpt }}
 
 
 {% if page.automatic_tags != "nan" %}

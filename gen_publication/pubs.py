@@ -6,6 +6,13 @@ df = pd.read_csv("./gen_publication/pubs.csv", sep=",")
 print(df)
 print(df.columns)
 
+def highlight_name(name):
+    apply = lambda name, x: name.replace(x, f"<b><u>{x}</u></b>")
+    name = apply(name, "Ravinder, R.")
+    name = apply(name, "Bhattoo, Ravinder")
+    name = apply(name, "Ravinder")
+    return name
+
 for ind, item in df.iterrows():
     filename = slugify(item['Title'])
     with open(f"./_publications/{filename}.md", "w+") as f:
@@ -15,6 +22,7 @@ for ind, item in df.iterrows():
             newd[k.strip().replace(" ","_").lower()] = str(v).strip()
         if newd["item_type"] == "preprint":
             newd["venue"] = "Preprint"
+        newd["author"] = highlight_name(newd["author"])
         for k, v in newd.items():
             if k=="date":
                 v = str(item["Publication Year"])+"-01-01"
@@ -32,7 +40,11 @@ for ind, item in df.iterrows():
         f.write("\n\n<!--  -->\n\n")
 
         f.write("{{ page.abstract_note }}\n\n")
-        f.write("__Keywords__: {{ page.automatic_tags }}\n\n")
+        f.write("""
+{% if page.automatic_tags != "nan" %}
+__Keywords__: {{ page.automatic_tags }}
+{% endif %}
+\n\n""")
         f.write(f"[Dowonload paper here]({newd['url']})\n\n")
     #     if newd["abstract"].strip() in ["", "nan"]:
     #         pass

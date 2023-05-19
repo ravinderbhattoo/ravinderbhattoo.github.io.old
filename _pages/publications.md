@@ -7,7 +7,7 @@ author_profile: true
 
 - Our paper on 21 challenges in AI and ML in glass technology featured in American Ceramic Society's  CTT. Read the article [here](https://ceramics.org/ceramic-tech-today/glass-1/glass-discovery-and-design-21-challenges-in-artificial-intelligence-and-machine-learning-for-glass-science). A reprint of the article can be found in Glass machinery plants and accessories magazine [here](https://www.glassonline.com/pdf/magazine/GM/2021/GM_2021_3.pdf#page=74).
 
-- Our paper on glassy h-BN selected as the cover page in Advanced Theory and Simulations. Read the paper here: [link](https://onlinelibrary.wiley.com/doi/full/10.1002/adts.201900174) !!!
+- Our paper on glassy h-BN selected as the cover page in Advanced Theory and Simulations. Read the paper [here](https://onlinelibrary.wiley.com/doi/full/10.1002/adts.201900174) !!!
 
 
 {% include base_path %}

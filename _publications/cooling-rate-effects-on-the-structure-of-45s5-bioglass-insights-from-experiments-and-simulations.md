@@ -2,7 +2,7 @@
 key: "BLYUUCBT"
 item_type: "journalArticle"
 publication_year: "2020"
-authors: "Bhaskar, Pratik; Kumar, Rajesh; Maurya, Yashasvi; Ravinder, R.; Allu, Amarnath R.; Das, Sumanta; Gosvami, Nitya Nand; Youngman, Randall E.; Bødker, Mikkel S.; Mascaraque, Nerea; Smedskjaer, Morten M.; Bauchy, Mathieu; Krishnan, N. M. Anoop"
+authors: "Bhaskar, Pratik; Kumar, Rajesh; Maurya, Yashasvi; <b><u><b><u>Ravinder</u></b>, R.</u></b>; Allu, Amarnath R.; Das, Sumanta; Gosvami, Nitya Nand; Youngman, Randall E.; Bødker, Mikkel S.; Mascaraque, Nerea; Smedskjaer, Morten M.; Bauchy, Mathieu; Krishnan, N. M. Anoop"
 title: "Cooling rate effects on the structure of 45S5 bioglass: Insights from experiments and simulations"
 venue: "Journal of Non-Crystalline Solids"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://www.sciencedirect.com/science/article/pii/S0022309320300697)
 

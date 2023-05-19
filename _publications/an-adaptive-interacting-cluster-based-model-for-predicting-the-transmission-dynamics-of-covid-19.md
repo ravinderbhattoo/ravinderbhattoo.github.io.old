@@ -2,7 +2,7 @@
 key: "4XGYJZUP"
 item_type: "journalArticle"
 publication_year: "2020"
-authors: "Ravinder, R.; Singh, Sourabh; Bishnoi, Suresh; Jan, Amreen; Sharma, Amit; Kodamana, Hariprasad; Krishnan, N. M. Anoop"
+authors: "<b><u><b><u>Ravinder</u></b>, R.</u></b>; Singh, Sourabh; Bishnoi, Suresh; Jan, Amreen; Sharma, Amit; Kodamana, Hariprasad; Krishnan, N. M. Anoop"
 title: "An adaptive, interacting, cluster-based model for predicting the transmission dynamics of COVID-19"
 venue: "Heliyon"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://www.sciencedirect.com/science/article/pii/S2405844020325652)
 

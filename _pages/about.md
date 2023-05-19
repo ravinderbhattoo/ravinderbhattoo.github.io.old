@@ -18,7 +18,7 @@ author_profile: true
 
 ## Some recent work
 
-{% for post in site.featuredpub reversed %}
+{% for post in site.featuredpub %}
     {% include featuredpub.html %}
 {% endfor %}
 

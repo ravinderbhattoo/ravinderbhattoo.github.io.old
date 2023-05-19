@@ -2,7 +2,7 @@
 key: "QMGMSV7N"
 item_type: "journalArticle"
 publication_year: "2020"
-authors: "Nayak, Sumeru; Ravinder, R.; Krishnan, N. M. Anoop; Das, Sumanta"
+authors: "Nayak, Sumeru; <b><u><b><u>Ravinder</u></b>, R.</u></b>; Krishnan, N. M. Anoop; Das, Sumanta"
 title: "A Peridynamics-Based Micromechanical Modeling Approach for Random Heterogeneous Structural Materials"
 venue: "Materials"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://www.mdpi.com/1996-1944/13/6/1298)
 

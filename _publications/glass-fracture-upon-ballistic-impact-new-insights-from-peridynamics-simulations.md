@@ -2,7 +2,7 @@
 key: "VD6P23H5"
 item_type: "journalArticle"
 publication_year: "2019"
-authors: "Rivera, Jared; Berjikian, Jonathan; Ravinder, R.; Kodamana, Hariprasad; Das, Sumanta; Bhatnagar, Naresh; Bauchy, Mathieu; Krishnan, N. M. Anoop"
+authors: "Rivera, Jared; Berjikian, Jonathan; <b><u><b><u>Ravinder</u></b>, R.</u></b>; Kodamana, Hariprasad; Das, Sumanta; Bhatnagar, Naresh; Bauchy, Mathieu; Krishnan, N. M. Anoop"
 title: "Glass Fracture Upon Ballistic Impact: New Insights From Peridynamics Simulations"
 venue: "Frontiers in Materials"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://www.frontiersin.org/articles/10.3389/fmats.2019.00239)
 

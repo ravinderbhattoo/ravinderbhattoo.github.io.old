@@ -46,7 +46,16 @@
             {% if post.authors %}
               {{ post.authors }}<br>
             {% endif %}
-            <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+            <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}.
+            {% if post.item_type == "journalArticle"%}
+              {% if post.paperurl %}
+                doi: <a href="{{ post.paperurl }}">{{ post.doi }}</a>
+              {% endif %}
+            {% else %}
+              {% if post.paperurl %}
+                url: <a href="{{ post.paperurl }}">{{ post.paperurl}}</a>
+              {% endif %}
+            {% endif %}
           </p>
         {% elsif post.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
@@ -62,8 +71,6 @@
       <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
-    {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
 
   </article>

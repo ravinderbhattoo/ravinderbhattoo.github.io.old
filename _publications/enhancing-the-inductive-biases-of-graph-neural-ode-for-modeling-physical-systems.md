@@ -2,7 +2,7 @@
 key: "8MXJ685Q"
 item_type: "conferencePaper"
 publication_year: "2023"
-authors: "Bishnoi, Suresh; Bhattoo, Ravinder; Jayadeva, Jayadeva; Ranu, Sayan; Krishnan, N. M. Anoop"
+authors: "Bishnoi, Suresh; <b><u>Bhattoo, <b><u>Ravinder</u></b></u></b>; Jayadeva, Jayadeva; Ranu, Sayan; Krishnan, N. M. Anoop"
 title: "Enhancing the Inductive Biases of Graph Neural ODE for Modeling Physical Systems"
 publication_title: "nan"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://openreview.net/forum?id=ATLEl_izD87)
 

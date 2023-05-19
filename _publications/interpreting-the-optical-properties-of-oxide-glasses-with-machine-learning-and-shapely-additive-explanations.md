@@ -2,7 +2,7 @@
 key: "9LFU4J7S"
 item_type: "journalArticle"
 publication_year: "2022"
-authors: "Zaki, Mohd; Venugopal, Vineeth; Bhattoo, Ravinder; Bishnoi, Suresh; Singh, Sourabh Kumar; Allu, Amarnath R.; Jayadeva; Krishnan, N. M. Anoop"
+authors: "Zaki, Mohd; Venugopal, Vineeth; <b><u>Bhattoo, <b><u>Ravinder</u></b></u></b>; Bishnoi, Suresh; Singh, Sourabh Kumar; Allu, Amarnath R.; Jayadeva; Krishnan, N. M. Anoop"
 title: "Interpreting the optical properties of oxide glasses with machine learning and Shapely additive explanations"
 venue: "Journal of the American Ceramic Society"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://onlinelibrary.wiley.com/doi/abs/10.1111/jace.18345)
 

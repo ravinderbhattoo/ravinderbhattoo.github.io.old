@@ -2,6 +2,12 @@ import pandas as pd
 
 df = pd.read_csv("./gen_conference/confs.csv", sep=";")
 
+def highlight_name(name):
+    apply = lambda name, x: name.replace(x, f"<b><u>{x}</u></b>")
+    name = apply(name, "R. Ravinder")
+    name = apply(name, "Ravinder Bhattoo")
+    return name
+
 for ind, item in df.iterrows():
     with open(f"./_talks/conf_{ind}.md", "w+") as f:
         f.write("---\n")
@@ -9,6 +15,7 @@ for ind, item in df.iterrows():
         newd = {}
         for k, v in dict(item).items():
             newd[k.strip()] = str(v).strip()
+        newd["authors"] = highlight_name(newd["authors"])
         for k, v in newd.items():
             f.write(f'{k}: "{v}"\n')
         f.write("collection: talks\n")

@@ -2,7 +2,7 @@
 key: "6GYBTL93"
 item_type: "journalArticle"
 publication_year: "2020"
-authors: "Ravinder, R.; Sridhara, Karthikeya H.; Bishnoi, Suresh; Grover, Hargun Singh; Bauchy, Mathieu; Jayadeva; Kodamana, Hariprasad; Krishnan, N. M. Anoop"
+authors: "<b><u><b><u>Ravinder</u></b>, R.</u></b>; Sridhara, Karthikeya H.; Bishnoi, Suresh; Grover, Hargun Singh; Bauchy, Mathieu; Jayadeva; Kodamana, Hariprasad; Krishnan, N. M. Anoop"
 title: "Deep learning aided rational design of oxide glasses"
 venue: "Materials Horizons"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://pubs.rsc.org/en/content/articlelanding/2020/mh/d0mh00162g)
 

@@ -9,7 +9,7 @@ isbn: "nan"
 issn: "2632-2153"
 doi: "10.1088/2632-2153/acb03e"
 paperurl: "https://dx.doi.org/10.1088/2632-2153/acb03e"
-abstract_note: "Physical systems are commonly represented as a combination of particles, the individual dynamics of which govern the system dynamics. However, traditional approaches require the knowledge of several abstract quantities such as the energy or force to infer the dynamics of these particles. Here, we present a framework, namely, Lagrangian graph neural network (LGnn), that provides a strong inductive bias to learn the Lagrangian of a particle-based system directly from the trajectory. We test our approach on challenging systems with constraints and drag—LGnn outperforms baselines such as feed-forward Lagrangian neural network (Lnn) with improved performance. We also show the zero-shot generalizability of the system by simulating systems two orders of magnitude larger than the trained one and also hybrid systems that are unseen by the model, a unique feature. The graph architecture of LGnn significantly simplifies the learning in comparison to Lnn with ∼25 times better performance on ∼20 times smaller amounts of data. Finally, we show the interpretability of LGnn, which directly provides physical insights on drag and constraint forces learned by the model. LGnn can thus provide a fillip toward understanding the dynamics of physical systems purely from observable quantities."
+excerpt: "Physical systems are commonly represented as a combination of particles, the individual dynamics of which govern the system dynamics. However, traditional approaches require the knowledge of several abstract quantities such as the energy or force to infer the dynamics of these particles. Here, we present a framework, namely, Lagrangian graph neural network (LGnn), that provides a strong inductive bias to learn the Lagrangian of a particle-based system directly from the trajectory. We test our approach on challenging systems with constraints and drag—LGnn outperforms baselines such as feed-forward Lagrangian neural network (Lnn) with improved performance. We also show the zero-shot generalizability of the system by simulating systems two orders of magnitude larger than the trained one and also hybrid systems that are unseen by the model, a unique feature. The graph architecture of LGnn significantly simplifies the learning in comparison to Lnn with ∼25 times better performance on ∼20 times smaller amounts of data. Finally, we show the interpretability of LGnn, which directly provides physical insights on drag and constraint forces learned by the model. LGnn can thus provide a fillip toward understanding the dynamics of physical systems purely from observable quantities."
 date: "2023-01-01"
 date_added: "2023-05-19 17:59:00"
 date_modified: "2023-05-19 17:59:00"
@@ -86,14 +86,14 @@ session: "nan"
 committee: "nan"
 history: "nan"
 legislative_body: "nan"
-collection: publications
+type: "Publication"
 ---
 
 
 
 <!--  -->
 
-{{ page.abstract_note }}
+{{ page.excerpt }}
 
 
 {% if page.automatic_tags != "nan" %}

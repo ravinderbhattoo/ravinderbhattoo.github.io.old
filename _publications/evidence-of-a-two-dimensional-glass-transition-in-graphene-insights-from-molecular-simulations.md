@@ -2,7 +2,7 @@
 key: "TGEKYDLB"
 item_type: "journalArticle"
 publication_year: "2019"
-authors: "Ravinder, R.; Kumar, Rajesh; Agarwal, Manish; Krishnan, N. M. Anoop"
+authors: "<b><u><b><u>Ravinder</u></b>, R.</u></b>; Kumar, Rajesh; Agarwal, Manish; Krishnan, N. M. Anoop"
 title: "Evidence of a two-dimensional glass transition in graphene: Insights from molecular simulations"
 venue: "Scientific Reports"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://www.nature.com/articles/s41598-019-41231-z)
 

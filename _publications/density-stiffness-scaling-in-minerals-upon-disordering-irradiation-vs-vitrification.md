@@ -2,7 +2,7 @@
 key: "NI48PR3A"
 item_type: "journalArticle"
 publication_year: "2019"
-authors: "Krishnan, N. M. Anoop; Ravinder, R.; Kumar, Rajesh; Le Pape, Yann; Sant, Gaurav; Bauchy, Mathieu"
+authors: "Krishnan, N. M. Anoop; <b><u><b><u>Ravinder</u></b>, R.</u></b>; Kumar, Rajesh; Le Pape, Yann; Sant, Gaurav; Bauchy, Mathieu"
 title: "Density–stiffness scaling in minerals upon disordering: Irradiation vs. vitrification"
 venue: "Acta Materialia"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://www.sciencedirect.com/science/article/pii/S1359645419300291)
 

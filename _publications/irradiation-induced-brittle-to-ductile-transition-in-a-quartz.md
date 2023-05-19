@@ -2,7 +2,7 @@
 key: "RYQUQL5H"
 item_type: "journalArticle"
 publication_year: "2020"
-authors: "Ravinder, R.; Kumar, Abhishek; Kumar, Rajesh; Vangla, Prashanth; Krishnan, N. M. Anoop"
+authors: "<b><u><b><u>Ravinder</u></b>, R.</u></b>; Kumar, Abhishek; Kumar, Rajesh; Vangla, Prashanth; Krishnan, N. M. Anoop"
 title: "Irradiation-induced brittle-to-ductile transition in α-quartz"
 venue: "Journal of the American Ceramic Society"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://onlinelibrary.wiley.com/doi/abs/10.1111/jace.16951)
 

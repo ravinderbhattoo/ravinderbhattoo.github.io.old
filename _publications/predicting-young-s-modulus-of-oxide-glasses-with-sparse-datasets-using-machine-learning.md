@@ -2,7 +2,7 @@
 key: "S8EQYNLI"
 item_type: "journalArticle"
 publication_year: "2019"
-authors: "Bishnoi, Suresh; Singh, Sourabh; Ravinder, R.; Bauchy, Mathieu; Gosvami, Nitya Nand; Kodamana, Hariprasad; Krishnan, N. M. Anoop"
+authors: "Bishnoi, Suresh; Singh, Sourabh; <b><u><b><u>Ravinder</u></b>, R.</u></b>; Bauchy, Mathieu; Gosvami, Nitya Nand; Kodamana, Hariprasad; Krishnan, N. M. Anoop"
 title: "Predicting Young's modulus of oxide glasses with sparse datasets using machine learning"
 venue: "Journal of Non-Crystalline Solids"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://www.sciencedirect.com/science/article/pii/S0022309319305149)
 

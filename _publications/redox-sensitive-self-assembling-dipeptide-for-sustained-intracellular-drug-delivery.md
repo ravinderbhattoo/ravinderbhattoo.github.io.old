@@ -2,7 +2,7 @@
 key: "Y5LARYKQ"
 item_type: "journalArticle"
 publication_year: "2019"
-authors: "Dhawan, Sameer; Ghosh, Sukanya; Ravinder, R.; Bais, Sachendra S.; Basak, Soumen; Krishnan, N. M. Anoop; Agarwal, Manish; Banerjee, Manidipa; Haridas, V."
+authors: "Dhawan, Sameer; Ghosh, Sukanya; <b><u><b><u>Ravinder</u></b>, R.</u></b>; Bais, Sachendra S.; Basak, Soumen; Krishnan, N. M. Anoop; Agarwal, Manish; Banerjee, Manidipa; Haridas, V."
 title: "Redox Sensitive Self-Assembling Dipeptide for Sustained Intracellular Drug Delivery"
 venue: "Bioconjugate Chemistry"
 isbn: "nan"
@@ -95,7 +95,11 @@ collection: publications
 
 {{ page.abstract_note }}
 
+
+{% if page.automatic_tags != "nan" %}
 __Keywords__: {{ page.automatic_tags }}
+{% endif %}
+
 
 [Dowonload paper here](https://doi.org/10.1021/acs.bioconjchem.9b00532)
 

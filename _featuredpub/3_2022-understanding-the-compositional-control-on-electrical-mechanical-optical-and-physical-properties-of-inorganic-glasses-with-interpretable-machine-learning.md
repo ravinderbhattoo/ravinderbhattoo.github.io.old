@@ -1,9 +1,0 @@
----
-title: "Understanding the Compositional Control on Electrical, Mechanical, Optical, and Physical Properties of Inorganic Glasses with Interpretable Machine Learning"
-permalink: /featuredpub/2022-understanding-the-compositional-control-on-electrical-mechanical-optical-and-physical-properties-of-inorganic-glasses-with-interpretable-machine-learning
-authors: Bhattoo, Ravinder; Bishnoi, Suresh; Zaki, Mohd; Krishnan, NM Anoop;
-date: 2022-01-01
-venue: 'Acta Materialia, Elsevier'
-excerpt: "Despite the use of inorganic glasses for more than 4500 years, the composition–property relationships in these materials remain poorly understood. Here, exploiting largescale experimental data and machine learning, we develop composition–property models for twenty five properties, which are interpreted using game-theoretic concepts. Specifically, we use a dataset consisting of ∼275,000 glass compositions comprising of 221 different components and 25 properties. This is by far the largest model developed in the literature. The analysis reveals that the glass components, such as network formers, modifiers, and intermediates, play distinct roles in governing the optical, physical, electrical, and mechanical properties of glasses. Interestingly, these components exhibit interdependence, the magnitude of which is different for different properties. While the physical origins of some of these interdependencies could be explained using known phenomena, the majority of the remaining ones remain to be explored. Thus, our work paves the way for decoding the “glass genome”, which can provide the recipe for discovering novel glasses while also shedding light on the fundamental factors governing the composition–structure–property relationships."
-type: "Publication"
----
