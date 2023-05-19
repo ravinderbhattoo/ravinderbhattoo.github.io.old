@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ravinder Bhattoo, Ph.D."
+title                    : "Ravinder Bhattoo, Ph. D."
 title_separator          : "-"
 name                     : &name "Ravinder Bhattoo"
 description              : &description "personal description"
@@ -58,6 +58,7 @@ yandex_site_verification :
 # Social Sharing
 twitter:
   username               : &twitter
+  card                   : summary
 facebook:
   username               :
   app_id                 :
@@ -82,7 +83,7 @@ analytics:
 author:
   name             : "Ravinder Bhattoo"
   avatar           : "ravinder.jpeg"
-  bio              : "Research Associate<div style='font-size:12px'><br>Civil & Environmental Engineering<br>University of Wisconsin-Madison</div>"
+  bio              : "<i>Postdoctoral Scholar</i><br>Civil & Environmental Engineering<br>University of Wisconsin-Madison"
   location         : "Madison, USA"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

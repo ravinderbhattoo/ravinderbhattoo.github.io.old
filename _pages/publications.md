@@ -20,6 +20,40 @@ author_profile: true
 You can also find my articles on my <a href="{{author.googlescholar}}">Google Scholar</a> profile.
 {% endif %}
 
-{% for post in site.publications reversed %}
-    {% include archive-single.html %}
+
+{% include group-by-array collection=site.publications field="item_type" %}
+{% assign collection_tags = group_names | join: '~~~' | downcase | split: '~~~' %}
+
+# Journal Articles
+
+{% for tag in collection_tags  %}
+  {% if tag == "journalarticle" %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% for post in posts reversed %}
+        {% include archive-single-pub.html %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}
+
+# Preprints
+
+{% for tag in collection_tags  %}
+  {% if tag == "preprint" %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% for post in posts reversed %}
+        {% include archive-single-pub.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+# Conference Papers
+
+{% for tag in collection_tags %}
+  {% if tag == "conferencepaper" %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% for post in posts reversed %}
+        {% include archive-single-pub.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+

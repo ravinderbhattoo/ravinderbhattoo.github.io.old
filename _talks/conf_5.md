@@ -3,7 +3,8 @@ conf: "Artificial Intelligence Concepts and Multidisciplinary Applications in Mo
 date: "September 2019"
 venue: "International Center for Genetic Engineering and Biotechnology"
 location: "New Delhi, India"
-title: "Workshop: Introduction to Machine Learning Tools"
+presentation_type: "Workshop"
+title: "Introduction to Machine Learning Tools"
 abstract: ""
 files: "nan"
 collection: talks

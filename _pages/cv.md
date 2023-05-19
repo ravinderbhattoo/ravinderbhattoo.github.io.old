@@ -72,16 +72,80 @@ Software and Programming Languages
 
 Publications
 ======
-  <ol>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ol>
+{% include group-by-array collection=site.publications field="item_type" %}
+{% assign collection_tags = group_names | join: '~~~' | downcase | split: '~~~' %}
+## Journal Articles
+
+{% for tag in collection_tags  %}
+  {% if tag == "journalarticle" %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% for post in posts reversed %}
+        {% include archive-single-pub-cv.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+## Preprints
+
+{% for tag in collection_tags  %}
+  {% if tag == "preprint" %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% for post in posts reversed %}
+        {% include archive-single-pub-cv.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+## Conference Papers
+
+{% for tag in collection_tags %}
+  {% if tag == "conferencepaper" %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% for post in posts reversed %}
+        {% include archive-single-pub-cv.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
 
 <br>
 
-Conferences Talks and Workshops
+Conference Talks, Workshops and Posters
 ======
-  <ol>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ol>
+
+{% include group-by-array collection=site.talks field="presentation_type" %}
+{% assign collection_tags = group_names | join: '~~~' | downcase | split: '~~~' %}
+
+## Talks
+
+{% for tag in collection_tags  %}
+  {% if tag == "talk" %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% for post in posts reversed %}
+        {% include archive-single-talk-cv.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+## Workshops
+
+{% for tag in collection_tags  %}
+  {% if tag == "workshop" %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% for post in posts reversed %}
+        {% include archive-single-talk-cv.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+## Posters
+
+{% for tag in collection_tags %}
+  {% if tag == "poster" %}
+    {% assign posts = group_items[forloop.index0] %}
+    {% for post in posts reversed %}
+        {% include archive-single-talk-cv.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
 
 

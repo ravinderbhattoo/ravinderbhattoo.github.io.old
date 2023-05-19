@@ -3,7 +3,8 @@ conf: "14th Pacific Rim Conference on Ceramic and Glass Technology and GOMD 2021
 date: "December 2021"
 venue: "Vancouver"
 location: "British Columbia, Canada (Virtual)"
-title: "Talk: Decoding the Genome of Inorganic Glasses using Interpretable Machine Learning"
+presentation_type: "Talk"
+title: "Decoding the Genome of Inorganic Glasses using Interpretable Machine Learning"
 abstract: ""
 files: "nan"
 collection: talks
