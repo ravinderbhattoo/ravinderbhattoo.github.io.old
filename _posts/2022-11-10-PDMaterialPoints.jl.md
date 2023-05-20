@@ -2,6 +2,7 @@
 title: 'PDMaterialPoints.jl'
 date: 2022-11-10
 modified: 2023-05-15
+authors: "Ravinder Bhattoo"
 permalink: /posts/pdmaterialpoints
 excerpt: "![pdmaterialpoints](/images/blogs/pdmaterialpoints/pdmaterialpoints.png) PDMaterialPoints.jl is a Julia package that can be used to generate particle-based objects for peridynamics simulations. Peridynamics is a relatively new computational framework for simulating the behavior of materials that takes into account long-range interactions between particles or points in a material, instead of the traditional continuum-based approach. PDMaterialPoints.jl can be used to create particle-based objects, such as 2D and 3D meshes, that can be used as input for peridynamics simulations."
 category:

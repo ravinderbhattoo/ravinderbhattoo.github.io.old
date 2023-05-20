@@ -17,7 +17,7 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+  <article class="page" style="padding-bottom: 50px;" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
@@ -42,7 +42,7 @@ layout: default
           {% endif %}
 
 
-        {% if page.collection == 'posts' %}
+        {% if page.collection == 'posts' or page.type == 'Post' %}
 
           <p class="page__date">
           {% if page.modified %}
@@ -55,6 +55,7 @@ layout: default
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
           {% endif %}
           </p>
+          <p><b>Author(s): </b>{{ page.authors }}</p>
 
         {% endif %}
 
