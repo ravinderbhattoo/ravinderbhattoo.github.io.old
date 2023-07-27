@@ -7,6 +7,9 @@
    ========================================================================== */
 
 $doc-font-size              : 18;
+$paper-color                : #fff;
+$code-paper-color           : #f6f6f6;
+$frame-color                : #fff;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -54,9 +57,9 @@ $darker-gray                : mix(#000, $accent, 60%);
 $light-gray                 : mix(#fff, $accent, 50%);
 $lighter-gray               : mix(#fff, $accent, 90%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
+$body-color                 : $paper-color;
+$background-color           : $paper-color;
+$code-background-color      : $code-paper-color;
 $code-background-color-dark : $light-gray;
 $text-color                 : mix(#000, gray, 40%);;
 $border-color               : $lighter-gray;
