@@ -83,8 +83,8 @@ analytics:
 author:
   name             : "Ravinder Bhattoo"
   avatar           : "ravinder.jpeg"
-  bio              : "<i>Postdoctoral Scholar</i><br>Civil & Environmental Engineering<br>University of Wisconsin-Madison"
-  location         : "Madison, USA"
+  bio              : "<i>Assistant Professor</i><br>Civil Engineering<br>Indian Institute of Technology Indore"
+  location         : "Indore, India"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=lPTdGRMAAAAJ&hl=en"
@@ -188,6 +188,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
+  featuredres:
+    output: true
+    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -244,6 +247,15 @@ defaults:
   - scope:
       path: ""
       type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _featuredres
+  - scope:
+      path: ""
+      type: featuredres
     values:
       layout: single
       author_profile: true

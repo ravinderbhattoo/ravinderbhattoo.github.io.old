@@ -10,15 +10,16 @@ redirect_from:
 
 {% include base_path %}
 
-[Download CV]({{site.author.baseurl}}/files/ravinder_cv.pdf) in pdf form.
+<!-- [Download CV]({{site.author.baseurl}}/files/ravinder_cv.pdf) in pdf form. -->
 
 Research Interest
 ======
 Machine learning aided structural design, material modeling, physics-informed machine learning, graph neural networks, dynamic fracture and crack propagation on ballistic impact, molecular dynamics, and peridynamics
 
-Research Experience
+Research/Experience
 ======
-- **Research Associate**, Civil and Environmental Engineering <br> _April 2023 -- Present <br> University of Wisconsin, Madison_
+- **Assistant Professor**, Civil Engineering <br> _April 2024 -- Present <br> Indian Institute of Technology Indore, Indore_
+- **Research Associate**, Civil and Environmental Engineering <br> _April 2023 -- March 2024 <br> University of Wisconsin, Madison_
 - **Postdoctoral Scholar**, Civil Engineering <br> _January 2023 -- March 2023 <br> Indian Institute of Technology Delhi, Delhi_
 
 Education
